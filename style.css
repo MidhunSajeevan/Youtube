@@ -246,12 +246,17 @@ body
     height: 200px;
     position: relative;
 }
-.videoimg video
+.videoimg video,.videoimg iframe
 {
     width: 328px;
     height: 180px;
     border-radius: 15px;
     transition: 0.5s;
+}
+.videoimg iframe:hover
+{
+    border-radius: 0px;
+    cursor: pointer;
 }
 .videoimg video:hover
 {
